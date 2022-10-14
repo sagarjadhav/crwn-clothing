@@ -16,7 +16,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/crwn-clothing">
       <UserProvider>
         <CategoriesProvider>
           <CartProvider>
